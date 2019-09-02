@@ -9,16 +9,25 @@ import android.widget.Button;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button signInBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        }
+        Button signInBtn = findViewById(R.id.signInBtn);
 
+        signInBtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
+}
+
 
 

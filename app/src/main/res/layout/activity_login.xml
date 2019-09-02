@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.253" />
 
     <Button
-        android:id="@+id/login_signIn"
+        android:id="@+id/signInBtn"
         android:layout_width="330dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
@@ -188,7 +188,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_signIn" />
+        app:layout_constraintTop_toBottomOf="@+id/signInBtn" />
 
     <TextView
         android:id="@+id/textView10"
