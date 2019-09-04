@@ -21,7 +21,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     private static final String TAG = "RecyclerAdapter";
     List<String> moviesList;
-    List<String> moviesListAll;
+    List<String>  moviesListAll;
 
     public RecyclerAdapter(List<String> moviesList) {
         this.moviesList = moviesList;
